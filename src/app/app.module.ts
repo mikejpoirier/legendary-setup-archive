@@ -5,10 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { VillainComponent } from './villain/villain.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    VillainComponent
   ],
   imports: [
     BrowserModule,
